@@ -1,9 +1,147 @@
+#########################################
 
-jupyter/
-env/
-data/
-news_v1/
-news_v2/
-__pycache__/
+# Critical private files #
+##########################
+#dart_api_auth_key.txt
 
+
+
+# OS generated files #
+######################
+.directory
+.gdb_history
 .DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+
+# Generated Sources #
+#####################
+!skts.c
+!np_datetime.c
+!np_datetime_strings.c
+*.c
+*.cpp
+
+
+# Python files #
+################
+# setup.py working directory
+build
+# sphinx build directory
+doc/_build
+# setup.py dist directory
+dist
+# Egg metadata
+*.egg-info
+.eggs
+.pypirc
+# python packages
+env/
+
+# tox testing tool
+.tox
+# rope
+.ropeproject
+# wheel files
+*.whl
+**/wheelhouse/*
+# coverage
+.coverage
+coverage.xml
+coverage_html_report
+*.pytest_cache
+
+
+# Compiled source #
+###################
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.pxi
+*.o
+*.py[ocd]
+*.so
+.build_cache_dir
+MANIFEST
+__pycache__/
+*.pyc
+
+
+# Editor temporary/working/backup files #
+##########################################
+.#*
+*\#*\#
+[#]*#
+*~
+*$
+*.bak
+*flymake*
+*.iml
+*.kdev4
+*.log
+*.swp
+*.pdb
+.project
+.pydevproject
+.settings
+.idea
+.vagrant
+.noseids
+.ipynb_checkpoints
+.tags
+.cache/
+.vscode/
+
+
+# Data files #
+##############
+*.dta
+*.xpt
+*.h5
+pandas/io/*.dat
+pandas/io/*.json
+scikits
+bkdata/
+rptdata/
+devdata/
+#sample_rawdata/
+figs/
+log/
+log-1/
+
+
+# Unit / Performance Testing #
+##############################
+asv_bench/env/
+asv_bench/html/
+asv_bench/results/
+asv_bench/pandas/
+
+
+# Documentation generated files #
+#################################
+doc/source/generated
+doc/source/_static
+doc/source/vbench
+doc/source/vbench.rst
+doc/source/index.rst
+doc/build/html/index.html
+# Windows specific leftover:
+doc/tmp.sv
+doc/source/styled.xlsx
+doc/source/templates/
+doc/source/savefig/
+
+
+# Documentation files #
+#################################
+design/
+
+
+# PyCharm generated files #
+###########################
+.idea/
