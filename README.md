@@ -109,6 +109,13 @@ news TBL에 대한 분석, 보고 작업들.
 ## Algorithms used in this project 
 <!-- #============================================================ -->
 
+1. K-Means Clustering
+
+2. MeansShift Clustering 
+
+3. Linear Model Perceptron Classification 
+
+    sklearn.linear_model.Perceptron
 
 
 
